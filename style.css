@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: #2F2E41;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    margin-bottom: 4.5%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 3%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: #fff;
+    max-width: 600px;
+    text-align: justify;
+    padding: 2% 2% 2% 2%;
+}
+
+.text h1{
+    padding-bottom: 40px;
+    font-size: 36px;
+    white-space: nowrap;
+    padding-left: 10%;
+}
+
+.p{
+    padding-bottom: 40px;
+}
+
+.text p{
+    color: #C2C2C2;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text strong{
+    color: #7D7987;
+}
+
+span{
+    color:#00BFA6;
+}
+
+.line{
+    margin: 0 auto;
+    border: 0.1px solid #00BFA6;
+    width: 50%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+
+footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.padlock{
+    position: fixed;
+    left: 4%;
+    bottom: 4%;
+}
